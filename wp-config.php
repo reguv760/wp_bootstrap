@@ -64,8 +64,8 @@ define('NONCE_SALT',       '5+Td@e#_$4Q&Viv~$LMLa,Cu-Lm4MwvF3<^QC4U>RjmL$cO,2/5]
  */
 $table_prefix = 'rg_wp_';
 
-
-
+//turn on WP debug::
+define( 'WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 

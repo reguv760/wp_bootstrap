@@ -1,0 +1,16 @@
+/*
+Theme Name: RG Test Han Solo Theme
+Author: reguv760
+Author URI: http://tessellationdesign.com/
+Description: A basic theme made in Bootstrap WP
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Code and take over the world line-by-line
+*/
+
+body
+{
+  background-color:red;
+}
