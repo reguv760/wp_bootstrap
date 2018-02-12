@@ -9,19 +9,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Code and take over the world line-by-line
 */
-
 body {
-  background-color: red;
-}
-
-.admin-bar .navbar.fixed-top {
-    margin-top: 30px;
-}
-
-.current-menu-item > a {
-    background: #000;
-}
+  background-color: #888; }
 
 h1, h2, h3, h4, .site-name {
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
+
+.sidebar {
+  margin-top: 40px;
+  color: #444; }
+
+.sidebar h3 {
+  color: #888; }
+
+.widget {
+  margin: 10px 0 30px; }
+
+/*# sourceMappingURL=style.css.map */

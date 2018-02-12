@@ -34,4 +34,26 @@ function tutsplus_add_google_fonts() {
 }
 add_action( 'wp_enqueue_scripts', 'tutsplus_add_google_fonts' );
 
+
+//// create widgets:::
+function create_widget($name, $id, $description) {
+  // change h2 -> h3
+  register_sidebar(array(
+    'name' => __( $name ),
+    'id'   => $id,
+    'description' => __( $description ),
+    'before_widget' => '<div class="widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>'
+  ));
+}
+
+create_widget( 'Front Page Left', 'front-left', 'Displays on the left of the hompage');
+create_widget( 'Front Page Center', 'front-center', 'Displays on the center of the hompage');
+create_widget( 'Front Page Right', 'front-right', 'Displays on the right of the hompage');
+
+// sidebar
+create_widget( 'Page Sidebar', 'page', 'Displays on side of pages with sidebar');
+
 ?>
