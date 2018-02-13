@@ -16,7 +16,7 @@ function theme_js() {
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
 // Sometimes when logged in, the WordPress Admin CSS gets in your way. You have the ability to override it.
-add_filter( 'show_admin_bar', '__return_false' );
+// add_filter( 'show_admin_bar', '__return_false' );
 
 /*=============================
 =            Menus            =
